@@ -1,0 +1,30 @@
+{
+  "name": "mqtt-dss-bridge",
+  "version": "0.0.1",
+  "description": "MQTT digitalSTROM-Server Bridge",
+  "license": "MIT",
+  "author": "Chris Gross",
+  "contributors": [
+    "Chris Gross <cgHome@gmx.net>"
+  ],
+
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cgHome/mqtt-dss-bridge.git"
+  },
+
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MQTT",
+    "digitalSTROM"
+  ],
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "mqtt": "^1.2.1",
+    "request": "^2.57.0"
+  }
+}
