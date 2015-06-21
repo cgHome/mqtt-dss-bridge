@@ -4,6 +4,6 @@
  *  Copyright (c) 2015 Chris Gross.
 
  */
-
-require('./bridge');
+require("console-stamp")(console, "HH:MM:ss.l");
+require('./lib/bridge');
 
