@@ -1,7 +1,7 @@
 {
   "name": "mqtt-dss-bridge",
   "description": "MQTT digitalSTROM-Server Bridge",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Chris Gross",
   "copyright": "Copyright © 2015 [cgHome]. All rights reserved.",
   "license": "MIT",
