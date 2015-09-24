@@ -2,14 +2,20 @@
   "name": "mqtt-dss-bridge",
   "description": "MQTT digitalSTROM-Server Bridge",
   "version": "0.0.1",
-  "engines": {
-    "node": ">=0.10"
-  },
-  "license": "MIT",
   "author": "Chris Gross",
+  "copyright": "Copyright © 2015 [cgHome]. All rights reserved.",
+  "license": "MIT",
   "contributors": [
     "Chris Gross <cgHome@gmx.net>"
   ],
+  "homepage": "https://github.com/cgHome/mqtt-dss-bridge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cgHome/mqtt-dss-bridge.git"
+  },
+  "bugs": {
+    "url": "git://github.com/cgHome/mqtt-dss-bridge/issues"
+  },
   "keywords": [
     "mqtt-dss-bridge",
     "node",
@@ -18,14 +24,10 @@
     "Smarthome",
     "Home Automation"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cgHome/mqtt-dss-bridge.git"
-  },
-  "bugs": {
-    "url": "git://github.com/cgHome/mqtt-dss-bridge/issues"
-  },
   "main": "./lib/index.js",
+  "engines": {
+    "node": ">=0.10"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -33,6 +35,7 @@
     "console-stamp": "^0.1.6",
     "lodash": "^3.9.3",
     "mqtt": "^1.2.1",
+    "mqtt-regex": "^1.0.4",
     "request": "^2.57.0"
   }
 }
